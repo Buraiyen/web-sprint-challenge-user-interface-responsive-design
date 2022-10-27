@@ -105,6 +105,23 @@ header a:visited {
     color: white;
 }
 
+header nav {
+    background-color: black;
+}
+.header-title {
+    font-size: 3rem;
+    background-color: black;
+}
+header nav div a i {
+    font-size: 2.4rem;
+    margin: 0 8px;
+}
+
+nav i {
+    margin: 0 8px;
+    font-size: 4rem;
+}
+
 /* spacer */
 .spacer {
     width: 100%;
@@ -180,7 +197,7 @@ footer a {
 @media (max-width: 600px) {
     /* header section */
     .header-title {
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
         font-size: 4rem;
@@ -205,6 +222,17 @@ footer a {
     footer nav {
         display: flex;
         flex-direction: column;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
     }
 
 }
