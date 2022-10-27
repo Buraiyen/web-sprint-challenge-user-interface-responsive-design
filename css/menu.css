@@ -128,7 +128,34 @@ header a:visited {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.menu-sections {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(0, 4, 17, .8);
+    flex-wrap: wrap;
+}
+.menu-section {
+    flex: 1 0 20%;
+    margin-top: 24px;
+}
+.menu-item {
+    width: 100%;
+    border: 1px solid white;
+}
+.menu-item h4 {
+    font-size: 2rem ;
+    color: beige;
+}
+.menu-item p {
+    font-size: 1.8rem;
+    color: #d1a6a6;
+}
+.menu-section-name {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    color: #d1a401;
+}
 /* footer section */
 footer {
     width: 100%;
@@ -141,8 +168,13 @@ footer a {
     text-decoration: underline;
 }
 
+@media (max-width: 1000px) {
+    .menu-section {
+        flex: 1 0 33%;
+    }
+}
 /* mobile media query */
-@media (max-width: 428px) {
+@media (max-width: 600px) {
     /* header section */
     .header-title {
         width: 75%;
@@ -154,6 +186,11 @@ footer a {
     /* menu */
     .menu {
         background-image: none;
+    }
+
+    .menu-section {
+        flex: 1 0 100%;
+        text-align: center;
     }
 
     /* footer section */
