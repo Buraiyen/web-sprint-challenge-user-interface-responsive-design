@@ -203,9 +203,10 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
     color: black;
+    text-align: center;
 }
-
 footer a {
+    color: #d1a401;
     text-decoration: underline;
 }
 
@@ -263,4 +264,9 @@ footer a {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

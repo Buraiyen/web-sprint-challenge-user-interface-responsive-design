@@ -170,6 +170,7 @@ footer a {
     color: #d1a401;
 }
 
+
 @media (max-width: 1000px) {
     .menu-section {
         flex: 1 0 33%;
@@ -201,4 +202,9 @@ footer a {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
