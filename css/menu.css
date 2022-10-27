@@ -163,9 +163,11 @@ footer {
     padding-top: 2.5vh;
     color: black;
     font-size: 3rem;
+    text-align: center;
 }
 footer a {
     text-decoration: underline;
+    color: #d1a401;
 }
 
 @media (max-width: 1000px) {
